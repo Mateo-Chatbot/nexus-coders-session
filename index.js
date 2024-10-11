@@ -98,7 +98,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 ┌┤✑  Thanks for using X-PairCode
 │└────────────┈ ⳹        
 │©2024 NexusCoders. 
-|undefined.
+|${XeonBotInc.user.id.name || "undefined"}
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
