@@ -12,7 +12,7 @@ const readline = require("readline")
 const { parsePhoneNumber } = require("libphonenumber-js")
 
 
-let phoneNumber = "916909137213"
+let phoneNumber = "234909137213"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -97,7 +97,8 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 └┬❖  
 ┌┤✑  Thanks for using X-PairCode
 │└────────────┈ ⳹        
-│©2020-2023 XeonBotInc 
+│©2024 NexusCoders. 
+|undefined.
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
